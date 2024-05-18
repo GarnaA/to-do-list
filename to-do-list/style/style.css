@@ -1,0 +1,38 @@
+html, body {
+    font-family: sans-serif;
+    background-color: #6394ef;
+    height: 100%;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo-container {
+    width: 80%;
+    height: 60%;
+    padding: 50px;
+    background-color: #0b1174; 
+    border-radius: 20px;
+    color: #fff;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.input-container input{
+    width: 65%;
+    height: 25px;
+    outline-color: #fff; 
+}
+
+.input-container button {
+    height: 31px;
+    border: none;
+    cursor: pointer;
+    background-color: #ff0000;
+    color: #fff;
+}
