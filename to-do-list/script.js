@@ -9,5 +9,10 @@ button.addEventListener("click", () => {
     deleteBtn.innerText = "Delete";
     li.innerText = input.value;
     list.appendChild(li);
-    li.appendChild(deleteBtn)
+    li.appendChild(deleteBtn);
+    input.value = "";
+
+    deleteBtn.addEventListener("click", () => {
+        list.removeChild(li);
+    });
 });
