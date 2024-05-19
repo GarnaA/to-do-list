@@ -36,3 +36,12 @@ html, body {
     background-color: #ff0000;
     color: #fff;
 }
+
+.todo-list {
+    list-style-type: none;
+}
+
+.todo-list-item {
+    display: flex;
+    justify-content: space-between;
+}
