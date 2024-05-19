@@ -23,14 +23,19 @@ html, body {
     box-sizing: border-box;
 }
 
+.input-container {
+    display: flex;
+    justify-content: space-between;
+}
+
 .input-container input{
-    width: 65%;
+    width: calc(100% - 80px);
     height: 25px;
     outline-color: #fff; 
 }
 
 .input-container button {
-    height: 31px;
+    height: 30px;
     border: none;
     cursor: pointer;
     background-color: #ff0000;
@@ -44,4 +49,12 @@ html, body {
 .todo-list-item {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.todo-list-item button {
+    border: none;
+    background-color: yellow;
+    border-radius: 5px;
+    cursor: pointer;
 }
